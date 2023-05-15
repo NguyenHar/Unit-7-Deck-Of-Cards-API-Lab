@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sU0EfoDSo4lXOqXiD8g5PPl564rC9oRMSwqDykO20sI7ZTYc9ElF9NVvtXCTrNXIolK086tNZnZm8pgx2SKQGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harry\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\harry\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
