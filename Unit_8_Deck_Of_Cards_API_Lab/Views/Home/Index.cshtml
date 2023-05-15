@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Card>
+
+
+<div style="display:flex; flex-direction:row">
+    @foreach(Card card in @Model)
+    {
+        <div style="display:flex; flex-direction:column">
+            <p>@card.value OF @card.suit</p>
+            <img src="@card.image">
+        </div>
+    }
+</div>
