@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+        "projectName": "Unit_7_Deck_Of_Cards_API_Lab",
+        "projectPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+        "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

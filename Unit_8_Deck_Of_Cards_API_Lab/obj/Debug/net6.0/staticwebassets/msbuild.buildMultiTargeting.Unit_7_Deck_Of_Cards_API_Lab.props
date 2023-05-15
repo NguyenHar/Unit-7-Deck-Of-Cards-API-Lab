@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Unit_7_Deck_Of_Cards_API_Lab.props" />
+</Project>

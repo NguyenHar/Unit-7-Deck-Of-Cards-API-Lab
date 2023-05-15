@@ -241,9 +241,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab.csproj",
-      "projectName": "Unit_8_Deck_Of_Cards_API_Lab",
-      "projectPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab.csproj",
+      "projectUniqueName": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+      "projectName": "Unit_7_Deck_Of_Cards_API_Lab",
+      "projectPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
       "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_8_Deck_Of_Cards_API_Lab\\obj\\",
       "projectStyle": "PackageReference",
