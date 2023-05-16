@@ -29,12 +29,23 @@ namespace Unit_7_Deck_Of_Cards_API_Lab.Controllers
         public IActionResult DrawNext(int[] cards)
         {
             List<int> toReplace = cards.ToList();
-            for (int i=0; i<5; i++)
+            List<int> toRemove = new List<int>();
+            for (int i=0; i<drawnCards.Count; i++)
             {   // Make it so checked items are unaffected
                 if (!toReplace.Contains(i))
                 {
-                    drawnCards[i] = deckAPI.DrawCard(deck.deck_id, 1).cards[0];
+                    CardResults result = deckAPI.DrawCard(deck.deck_id, 1);
+                    if (result.cards.Length != 0)
+                        drawnCards[i] = result.cards[0];
+                    else
+                        toRemove.Add(i);
                 }
+            }
+            toRemove = toRemove.OrderByDescending(x => x).ToList();
+            foreach (int i in toRemove)
+            {
+                if (drawnCards.Count != 0)
+                    drawnCards.RemoveAt(i);
             }
             return RedirectToAction("Index");
         }
