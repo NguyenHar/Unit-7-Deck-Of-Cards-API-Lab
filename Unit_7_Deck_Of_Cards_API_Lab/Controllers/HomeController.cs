@@ -38,10 +38,9 @@ namespace Unit_7_Deck_Of_Cards_API_Lab.Controllers
                     if (result.cards.Length != 0)
                         drawnCards[i] = result.cards[0];
                     else
-                        toRemove.Add(i);
+                        toRemove.Insert(0, i);
                 }
             }
-            toRemove = toRemove.OrderByDescending(x => x).ToList();
             foreach (int i in toRemove)
             {
                 if (drawnCards.Count != 0)
