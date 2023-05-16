@@ -31,14 +31,9 @@ namespace Unit_7_Deck_Of_Cards_API_Lab.Controllers
             List<int> toReplace = cards.ToList();
             for (int i=0; i<5; i++)
             {   // Make it so checked items are unaffected
-                if (!toReplace.Contains(i) && deck.remaining >= 5)
+                if (!toReplace.Contains(i))
                 {
                     drawnCards[i] = deckAPI.DrawCard(deck.deck_id, 1).cards[0];
-                    deck.remaining--;
-                }
-                else
-                {
-                    drawnCards.RemoveAt(i);
                 }
             }
             return RedirectToAction("Index");
