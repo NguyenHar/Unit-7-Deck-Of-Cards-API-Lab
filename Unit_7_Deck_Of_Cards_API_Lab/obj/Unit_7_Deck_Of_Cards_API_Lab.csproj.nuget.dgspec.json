@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {}
+    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {
+    "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
         "projectName": "Unit_7_Deck_Of_Cards_API_Lab",
-        "projectPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
+        "projectPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab.csproj",
         "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_8_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\obj\\",
+        "outputPath": "C:\\Users\\harry\\Desktop\\Grand Circus\\Unit_7_Deck_Of_Cards_API_Lab\\Unit_7_Deck_Of_Cards_API_Lab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",

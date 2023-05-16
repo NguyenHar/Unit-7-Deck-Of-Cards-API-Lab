@@ -1,12 +1,21 @@
-﻿@model IEnumerable<Card>
+﻿@model List<Card>
 
+<form asp-method-"post" asp-action="GenerateDeck">
+    <button type="submit">Generate Deck</button>
+</form>
 
-<div style="display:flex; flex-direction:row">
-    @foreach(Card card in @Model)
-    {
-        <div style="display:flex; flex-direction:column">
-            <p>@card.value OF @card.suit</p>
-            <img src="@card.image">
-        </div>
-    }
-</div>
+<form asp-method="post" asp-action="DrawNext">
+    <div style="display:flex; flex-direction:row">
+        @for(int i=0; i< Model.Count; i++)
+        {
+            <div style="display:flex; flex-direction:column">
+                <p>@Model[i].value OF @Model[i].suit</p>
+                <img src="@Model[i].image">
+                <label for="@Model[i].code">Keep card</label>
+                <input type="checkbox" name="cards[]" id="@Model[i].code" value="@i" />            
+            </div>
+        }
+    </div>
+
+    <br /> <div><button type="submit">Draw next</button></div>
+</form>
